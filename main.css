@@ -6,3 +6,6 @@ body {
     margin: 0;
     padding: 0;
 }
+@import 'atoms.css';
+@import 'molecules.css';
+@import 'organisms.css';
