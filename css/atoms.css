@@ -113,3 +113,38 @@ figure img{
     grid-row: 7;
     text-align: center;
 }
+.artikler img {
+    width: 180px;
+    height: 100px;
+    margin-top: 20px;
+}
+.nyt h3 {
+    grid-column: 1;
+    border-bottom: 2px solid black;
+}
+.art2 h3{
+    margin: 0 auto;
+    grid-column: 1/-1;
+    width: 75%;
+    border-bottom: 2px solid black;
+}
+ .nyt a{
+    grid-column: 1;
+    grid-row: 8;
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+.nyt2 h3{
+    grid-column: 2;
+    width: 100%;
+    border-bottom: 2px solid black;
+}.anbefalinger h3{
+   grid-column: 1;
+    width: 100%;
+    border-bottom: 2px solid black; 
+}
+ .anbefalinger a{
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 10px;
+}
